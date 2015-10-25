@@ -1,0 +1,43 @@
+Shiny App Pitch
+========================================================
+author: zenghis
+date: 25th October 2015
+font-family: 'Arial-Narrow'
+
+Description
+========================================================
+
+The Shiny app is a basic calculator that performs:
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+Interface
+========================================================
+
+As shown in the image below, the interface is simple. 
+
+![alt text](image.png)
+
+Example
+========================================================
+
+Let's say two numbers (e.g., 14 and 16) are inserted, the 
+output for Addition would be look like this:
+
+```{r, echo = FALSE}
+number1 <- 14
+number2 <- 16
+output <- number1 + number2
+print(output)
+```
+
+Credits
+========================================================
+
+This work would be impossible without the following:
+- Developing Data Products
+- RStudio
+- Shiny

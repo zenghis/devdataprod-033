@@ -10,9 +10,9 @@ shinyUI(fluidPage(
           tabPanel("Documentation",
             helpText('The Shiny app is a basic calculator that performs addition,
                       subtraction, multiplication, and division between two numbers.
-                      After inserted the numbers,
-                      the answers will shown under the Results tab.
-                      Sometimes, the display of the results may be slightly delayed,
+                      Insert numbers in the boxes,
+                      then answers will show under the Results tab.
+                      Sometimes, the display of answers might be slightly delayed,
                       possibly due to heavy loads on the server.')), 
           tabPanel("Results",
             h4("Addition"),
